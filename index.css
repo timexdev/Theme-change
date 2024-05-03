@@ -1,0 +1,59 @@
+@media (min-width:600px) {
+    .navbar-nav{
+        margin-left: 550px;
+    }
+}
+@media (max-width:600px) {
+    #toggleBtn{
+        margin-left: -400px;
+    }
+    
+
+
+#info h1, h3, span{
+    text-align: center;
+}
+.details{
+    text-align: center
+};
+
+}
+
+.hello{
+    border-radius: 20px 20px 0 20px;
+}
+.details{
+    font-weight: 500;
+    font-size: 15px;
+
+}
+
+
+/* Default theme */
+body {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.dark-theme {
+    background-color: #333;
+    color: #f0f0f0;
+}
+
+/* Default theme for navbar */
+#navbar a{
+    color: #333;
+}
+
+.dark-theme #navbar a {
+    background-color: #333;
+    color: #f0f0f0;
+}
+#toggleBtn{
+    color: #333;
+}
+
+.dark-theme #toggleBtn {
+    background-color: #333;
+    color: #f0f0f0;
+}
